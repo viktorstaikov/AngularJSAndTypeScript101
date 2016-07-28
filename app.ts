@@ -5,7 +5,7 @@ module HaveIBeenPwned {
     "use strict";
     class Hello {
         constructor(argument) {
-            angular.module("HelloApp", []);
+            angular.module("HaveIBeenPwned", []);
         }
     }
 }

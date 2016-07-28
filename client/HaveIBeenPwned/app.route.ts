@@ -5,7 +5,8 @@ module HaveIBeenPwned {
     "use strict";
 
     class Routes {
-        public static $inject = ["$routeProvider"]
+        static $inject = ["$routeProvider"]
+        
         constructor($routeProvider: ng.route.IRouteProvider){
             $routeProvider
                 .when("/search", {
@@ -19,5 +20,5 @@ module HaveIBeenPwned {
         }
     }
 
-    angular.module("HelloApp").config(Routes);
+    angular.module("HaveIBeenPwned").config(Routes);
 }

@@ -18,5 +18,5 @@ var HaveIBeenPwned;
         Routes.$inject = ["$routeProvider"];
         return Routes;
     }());
-    angular.module("HelloApp").config(Routes);
+    angular.module("HaveIBeenPwned").config(Routes);
 })(HaveIBeenPwned || (HaveIBeenPwned = {}));

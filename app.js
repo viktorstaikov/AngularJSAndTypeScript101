@@ -5,7 +5,7 @@ var HaveIBeenPwned;
     "use strict";
     var Hello = (function () {
         function Hello(argument) {
-            angular.module("HelloApp", []);
+            angular.module("HaveIBeenPwned", []);
         }
         return Hello;
     }());

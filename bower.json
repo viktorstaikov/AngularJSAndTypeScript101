@@ -1,5 +1,5 @@
 {
-    "name": "AngularTypeScript101",
+    "name": "angulartypescript101",
     "version": "1.0.0",
     "dependencies": {
         "angular": "~1.4.0",
